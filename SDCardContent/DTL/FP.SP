@@ -1,0 +1,5 @@
+StartParamOfIMU:104/107,26,27,28,29/0,2,0,0,3
+StartParamOfPID:30,15,15/30,15,15/30,15,15
+StartParamOfESC:0/0/0
+StartParamOfSuperIO:0/0/0testing 1, 2, 3.
+InfileDATALOGIN
