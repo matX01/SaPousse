@@ -1,0 +1,64 @@
+erreur 0x01 La carte SD n'est pas détécté , vérifier cablage et état de la carte SD
+erreur 0x02 La carte SD ne contient pas le fichier de paramètres ou l'accès a la carte SD n'est pas possible, vérifier le fichier et l'état de la carte SD
+erreur 0x03 Les paramètres de vol contiennent trop d'argument
+erreur 0x04 il y a trop de listes a sauvegarder sur la sd
+
+
+erreur 0x05 la communication SPI avec l'IMU's a renvoyé une erreur d'acquisition
+erreur 0x06 la communication SPI avec l'IMU été perdu pendant trop longtemps , le système passe en mode dégradé
+
+
+erreur 0x07 la classe SPI n'a pas pu etre initialisée , le nombre de ports SPI n'est pas valide (doit appartenir a [1;3])
+erreur 0x08 les classes SPIDev ont été défini avec un numéro de port inexistant.
+
+
+erreur 0x09 L'un des registres de l'IMU n'a pas été configuré correctement , vérifier la connexion , et le status du registre (R ou RW).
+                                                                                                                                                            erreur 0x08 le FIFO d'acquisition de l'IMU est plein , la fréquence d'acquisition est diminuée de 100Hz
+erreur 0x0A l'IMU n'est pas connecté , verifiez la connexion ou redémarrez le système.
+erreur 0x0B le magnétomètre n'est pas connecté , verifiez la connexion ou redémarrez le système.
+
+erreur 0x0C le recepteur a renvoyé un failsafe
+
+
+//récupérer les informations de l'IMU
+//récupérer les informations du GPS
+
+
+//traiter les données
+
+//mettre en place les PID
+//mettre en place stabilisation pitch et roll
+//mettre en place stabilisation speed alt et compas
+//mettre en place la télémétrie
+//mettre en place le PA
+//modèle prévisionnel
+
+//Time , date , position , course and speed data.
+$GNRMC,153548.80,A,4336.05747,N,00127.30652,E,0.163,,200920,,,D*65
+
+//Course and speed information relative to the ground
+$GNVTG,,T,,M,0.163,N,0.301,K,D*3E
+
+//Time,Position and fix type data
+$GNGGA,153548.80,4336.05747,N,00127.30652,E,2,06,2.30,166.6,M,48.5,M,,0000*4B
+
+//GPS reciever operating mode,sattellites used in the potition solution
+$GNGSA,A,3,06,07,30,,,,,,,,,,3.49,2.30,2.62*17
+$GNGSA,A,3,87,74,86,,,,,,,,,,3.49,2.30,2.62*17
+
+//Number of sattellites in vew satellite ID number ,elevation,azimuth, SNR values
+GPS Americain
+$GPGSV,4,1,13,02,45,290,18,03,05,114,,04,26,060,,05,19,301,15*70
+$GPGSV,4,2,13,06,54,214,26,07,57,148,41,09,64,048,,16,08,055,*7C
+$GPGSV,4,3,13,19,01,218,,29,02,336,,30,34,182,34,36,31,140,33*7B
+$GPGSV,4,4,13,49,40,175,*41
+
+
+
+$GLGSV,3,1,10,65,23,289,,70,02,086,,71,44,059,,72,58,328,*67
+$GLGSV,3,2,10,73,41,078,,74,30,138,35,80,14,025,,86,12,205,28*6D
+$GLGSV,3,3,10,87,41,273,28,88,27,319,*6C
+
+//Latitude longitude Utc time of position fix and status
+$GNGLL,4336.05747,N,00127.30652,E,153548.80,A,D*71
+
