@@ -1,0 +1,21 @@
+#include "FlexArray.h"
+
+
+
+FlexArray::FlexArray(){
+
+}
+
+void FlexArray::MemAlloc(int X,int Y){
+    NumberOfLines = X;
+    NumberOfCols = Y;
+    Value = malloc(4*X*Y);
+
+
+}
+float *FlexArray::get(int line){
+
+
+
+}
+
