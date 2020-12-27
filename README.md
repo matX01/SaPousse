@@ -12,7 +12,7 @@ It is developped to improve my knowledge about control systems and mecanism , an
 The code is a crap i'm working on improving it.
 
  ## Hardware Requirement :
- _SaPousse is built on a precise Hardware set, there is no waranties that other hardware will work without any modifications of the code._
+ _SaPousse is built on a precise Hardware set, there is no warranties that other hardware will work without any modifications of the code._
  
  1. The main board is a Teensy 4.1
  2. The IMU is a MPU9250
