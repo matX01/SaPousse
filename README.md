@@ -7,7 +7,7 @@ SaPousse is **Open Source** so completly free to use, modify and share.
 
 WARNING : SaPousse is actually in an early beta version and cannot be used on a model airplane.
 
-It is developped to improve my knowledge about control systems and mecanism , and i want to share it in order to help other peoples that are blocked on a problem that i already had and already solved.
+It is developped to improve my knowledge about control systems and mecanism , and i want to share it in order to help other people that are blocked on a problem that i already had and already solved.
 
 The code is a crap i'm working on improving it.
 
