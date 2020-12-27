@@ -1,2 +1,7 @@
 # SaPousse
-SaPousse is an airplane flight controller software built from scratch with a complete Auto pilot software
+  WARNING : SaPousse is actualy in an early beta version and cannot be used on a model airplane.
+  
+  
+  
+  SaPousse is an airplane flight controller software built from scratch 
+  
