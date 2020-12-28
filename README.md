@@ -44,6 +44,7 @@ The code is a crap i'm working on improving it.
 
 ### Security features :
  _The wing that will serve as a test bench will weight around 1.5kg so the security features is a must and will be developped really carefully_
+ 
  __in any cases , if a failure appends , the airplane will give manual commands to the pilot if the radio is in range , in this degraded mode , the system will try as best as it can to give as mutch data as possible to the pilot by the ground station . if the radiocommand isn't in range , the motor will shut off automaticly and the plane will land on escape points that is configurated by the pilot before the flight.__
  
   1. in case of a sensor failure , the system will insure a measurement continuity by using other sensors to recreate the lost measurement.
