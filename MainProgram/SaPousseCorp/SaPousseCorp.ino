@@ -5,7 +5,7 @@ volatile bool DataAvailable = false;
 ScheduledGatheringObject AccelGathering;
 ScheduledGatheringObject CompasGathering;
 
-//allo
+//alloy
 
 void setup() {
     
