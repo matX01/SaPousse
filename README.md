@@ -5,7 +5,7 @@ SaPousse is an airplane flight controller software built from scratch .
 
 SaPousse is **Open Source** so completly free to use, modify and share.
 
-WARNING : SaPousse is actually in an early beta version and cannot be used on a model airplane.
+WARRNING : SaPousse is actually in an early beta version and cannot be used on a model airplane.
 
 It is developped to improve my knowledge about control systems and mecanism , and i want to share it in order to help other people that are blocked on a problem that i already had and already solved.
 
