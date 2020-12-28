@@ -35,6 +35,18 @@ The code is a crap i'm working on improving it.
  
  ### Avionics features :
    _Complete telemetry stream with a ground station._
+   1. Ground EFIS System with Pseudo ILS configuration
+   2. real time aviation map with waypoints placing.
+   3. real time statistics of battery level , Link quality , etc.
+   4. Config menu with Before flight Checklist, Nav parameters of the day (like ground pressure , max flight level etc.)
+   5. Calibration menu to setup the sensors before the flight.
+   
+
+### Security features :
+ _The wing that will serve as a test bench will weight around 1.5kg so the security features is a must and will be developped really carefully_
+ __in any cases , if a failure appends , the airplane will give manual commands to the pilot if the radio is in range , in this degraded mode , te system will try as best as it can to give as mutch data as possible to the pilot by the ground station . if the radiocommand isn't in range , the motor will shut off automaticly and the plane will land on escape points that is configurated by the pilot before the flight.
+ 
+  1. in case of a sensor failure , the system will insure a measurement continuity by using other sensors to recreate the lost measurement.
    
    
 ## Features that are implemented :
