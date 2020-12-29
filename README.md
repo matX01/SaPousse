@@ -55,7 +55,7 @@ The code is a crap i'm working on improving it.
   1. Config file on an SD card
   2. Complete calibration of the IMU
   3. Calibration save mecanism
-  4. data sampling at a certain speed
+  4. data sampling at a certain frequency with an integrated frequency divider.
   5. SBUS decoder to get data from the radiocommand
   
   
