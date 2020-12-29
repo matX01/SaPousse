@@ -21,7 +21,7 @@ The code is a crap i'm working on improving it.
  4. The Radio reciever is a XM+
  
  ## Software Requirement :
- 1. SaPousse is based on the teensyduino lib(witch is Arduino lib)
+ 1. SaPousse is based on the teensyduino lib(witch is an Arduino lib fork)
  2. SaPousse needs to be compiled into the Arduino soft , that's why the main file is a .ino file
 
  ## Features that will be implemented :
