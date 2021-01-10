@@ -45,7 +45,7 @@ char List[] = {0xB5,0x62,0x06,0x08,0x00,0x00,0x00,0x00};
 
 /*Messages sent by U-center while configuring the GPS Rates
 
-    1000ms sampling period
+    1000ms GPS sampling period
         B5 62 6 8 6 E8 3 2 2 3 3F B5 62 6 8 E 30 0 0 0 0 0 (There is an error into this line this is not the correct message)
     Pulling the sampling rate config
         B5 62 6 8 0 0 E 30 (this is a correct message)
