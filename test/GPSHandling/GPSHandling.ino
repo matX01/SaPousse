@@ -58,7 +58,7 @@ void setup(){
     uint8_t CK_A = 0;
     uint8_t CK_B = 0;
 
-    for(int i = 2;i < sizeof(List)-2; i ++){
+    for(unsigned int i = 2;i < sizeof(List)-2; i ++){
         
         CK_A += (uint8_t)List[i];
         CK_B += CK_A;
@@ -171,7 +171,7 @@ void serialEvent5(){
 
     if(!ReadToken && Rd){
         
-        Serial.write(InByte);
+        //Serial.write(InByte);
     
     }
 
@@ -187,7 +187,7 @@ void serialEvent5(){
     if(InByte == '\n'){
 
         Rd = false;
-
+        Serial.println("Readed ! ");
     }
 
 #endif
@@ -232,5 +232,5 @@ void serialEvent5(){
 21:59:57  R -> NMEA GNRMC,  Size  68,  'Recommended Minimum Specific GNSS Data'
 21:59:57  R -> NMEA GNVTG,  Size  35,  'Course Over Ground and Ground Speed'
 21:59:57  R -> NMEA GNGGA,  Size  74,  'Global Positioning System Fix Data'
-21:59:57  R -> NMEA GNGSA,  Size  52,  'GNSS DOP and Active Satellites'
+21:59:57  R -> NMEA GNGSA,  Size  52,  'GNSS DOP and Active Satellites'*/
 
