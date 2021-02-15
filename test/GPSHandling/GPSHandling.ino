@@ -171,7 +171,7 @@ void serialEvent5(){
 
     if(!ReadToken && Rd){
         
-        //Serial.write(InByte);
+        Serial.write(InByte);
     
     }
 
@@ -187,7 +187,7 @@ void serialEvent5(){
     if(InByte == '\n'){
 
         Rd = false;
-        Serial.println("Readed ! ");
+        //Serial.println("Readed ! ");
     }
 
 #endif

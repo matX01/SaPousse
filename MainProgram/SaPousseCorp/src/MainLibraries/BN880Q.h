@@ -14,6 +14,7 @@ class GPSHandler {
     static void ProcessGPS();
     static bool dataReady;
     private :
+    
 
 
 

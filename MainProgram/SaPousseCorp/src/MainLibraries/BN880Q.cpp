@@ -6,6 +6,8 @@ bool GPSHandler::dataReady = false;
 
 
 
+
+
 GPSHandler::GPSHandler(){
 
 
@@ -22,6 +24,7 @@ void GPSHandler::begin(){
 
 
 namespace GPSHandling {
+    
     
     char GPSSentence[20] = "";
 
