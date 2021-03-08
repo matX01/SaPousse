@@ -1,0 +1,9 @@
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\bin\Release\FirstGUI.exe.config
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\bin\Release\FirstGUI.exe
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\bin\Release\FirstGUI.pdb
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.Form1.resources
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.Properties.Resources.resources
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.csproj.GenerateResource.cache
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.csproj.CoreCompileInputs.cache
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.exe
+C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Release\FirstGUI.pdb
