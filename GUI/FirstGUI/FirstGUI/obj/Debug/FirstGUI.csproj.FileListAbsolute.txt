@@ -8,3 +8,13 @@ C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.CoreComp
 C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Debug\FirstGUI.exe
 C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Debug\FirstGUI.pdb
 C:\Users\mathi\source\repos\FirstGUI\FirstGUI\obj\Debug\FirstGUI.SaPousse.resources
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe.config
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\bin\Debug\FirstGUI.exe
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\bin\Debug\FirstGUI.pdb
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csprojAssemblyReference.cache
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.SaPousse.resources
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.Properties.Resources.resources
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.GenerateResource.cache
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.csproj.CoreCompileInputs.cache
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.exe
+E:\Projets\SaPousse\GUI\FirstGUI\FirstGUI\obj\Debug\FirstGUI.pdb
