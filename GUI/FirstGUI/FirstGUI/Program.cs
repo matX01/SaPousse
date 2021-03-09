@@ -6,8 +6,10 @@ using System.Windows.Forms;
 
 namespace FirstGUI
 {
+   
     static class Program
     {
+        public static System.Drawing.Color BackGroundColor = System.Drawing.Color.FromArgb(255, 46, 51, 73);
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
