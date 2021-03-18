@@ -1,0 +1,14 @@
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\bin\Debug\SaPousseOS v0.2.exe.config
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\bin\Debug\SaPousseOS v0.2.exe
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\bin\Debug\SaPousseOS v0.2.pdb
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS v0.2.csprojAssemblyReference.cache
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS v0.2.csproj.GenerateResource.cache
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS v0.2.csproj.CoreCompileInputs.cache
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS v0.2.exe
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS v0.2.pdb
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.Forms.F_MainMenu.resources
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.MainWindow.resources
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.Forms.F_Menu2.resources
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.Forms.F_Menu3.resources
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.Properties.Resources.resources
+E:\Projets\SaPousse\GUI\SaPousseOS v0.2\SaPousseOS v0.2\obj\Debug\SaPousseOS_v0_2.CustomisedControls.MenuControls.CheckSlider.resources

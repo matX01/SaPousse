@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SaPousseOS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BackgroundColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">46, 51, 73</Value>
+    </Setting>
+    <Setting Name="ContextMenuColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">24, 30, 54</Value>
+    </Setting>
+    <Setting Name="FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="LightModeBackGround" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="DarkModeBackGround" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">46, 51, 73</Value>
+    </Setting>
+    <Setting Name="LightModeContextMenu" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">200, 200, 200</Value>
+    </Setting>
+    <Setting Name="DarkModeContextMenu" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">24, 30, 54</Value>
+    </Setting>
+    <Setting Name="LightModeFont" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="DarkModeFont" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

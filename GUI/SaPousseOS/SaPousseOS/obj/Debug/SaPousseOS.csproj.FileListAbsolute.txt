@@ -1,0 +1,12 @@
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\bin\Debug\SaPousseOS.exe.config
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\bin\Debug\SaPousseOS.exe
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\bin\Debug\SaPousseOS.pdb
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.csprojAssemblyReference.cache
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.Properties.Resources.resources
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.csproj.GenerateResource.cache
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.csproj.CoreCompileInputs.cache
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.exe
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.pdb
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.MainForm.resources
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.MainMenu.resources
+E:\Projets\SaPousse\GUI\SaPousseOS\SaPousseOS\obj\Debug\SaPousseOS.Settings.resources

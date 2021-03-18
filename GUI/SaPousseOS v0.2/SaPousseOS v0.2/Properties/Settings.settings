@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SaPousseOS_v0_2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BackgroundColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">46, 51, 73</Value>
+    </Setting>
+    <Setting Name="SubMenu" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">24, 30, 54</Value>
+    </Setting>
+    <Setting Name="FontColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="LightBackground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="DarkBackground" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">46, 51, 73</Value>
+    </Setting>
+    <Setting Name="LightSubMenu" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">200, 200, 200</Value>
+    </Setting>
+    <Setting Name="DarkSubMenu" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">24, 30, 54</Value>
+    </Setting>
+    <Setting Name="LightFont" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="DarkFont" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="SideMenuIndicatorPanelSize" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
