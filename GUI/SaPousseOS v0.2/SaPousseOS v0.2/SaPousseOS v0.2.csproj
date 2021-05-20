@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,30 +64,48 @@
     <Compile Include="CustomisedControls\MenuControls\CheckSlider.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\F_MainMenu.cs">
+    <Compile Include="Forms\MainMenu\MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\F_MainMenu.Designer.cs">
-      <DependentUpon>F_MainMenu.cs</DependentUpon>
+    <Compile Include="Forms\MainMenu\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\F_Menu2.cs">
+    <Compile Include="Forms\MenuControl\MenuController.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\F_Menu2.Designer.cs">
+    <Compile Include="Forms\MenuControl\MenuController.Designer.cs">
+      <DependentUpon>MenuController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parameters\F_Menu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parameters\F_Menu1.Designer.cs">
+      <DependentUpon>F_Menu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parameters\F_Menu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parameters\F_Menu2.Designer.cs">
       <DependentUpon>F_Menu2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\F_Menu3.cs">
+    <Compile Include="Forms\Parameters\F_Menu3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\F_Menu3.Designer.cs">
+    <Compile Include="Forms\Parameters\F_Menu3.Designer.cs">
       <DependentUpon>F_Menu3.cs</DependentUpon>
     </Compile>
-    <Compile Include="GlobalVariables.cs" />
-    <Compile Include="Forms\F_MainWindow.cs">
+    <Compile Include="Forms\Parameters\F_ParameterWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\F_MainWindow.Designer.cs">
-      <DependentUpon>F_MainWindow.cs</DependentUpon>
+    <Compile Include="Forms\Parameters\F_ParameterWindow.Designer.cs">
+      <DependentUpon>F_ParameterWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVariables.cs" />
+    <Compile Include="Forms\Parameters\F_MainParameterWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parameters\F_MainParameterWindow.Designer.cs">
+      <DependentUpon>F_MainParameterWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,17 +113,26 @@
     <EmbeddedResource Include="CustomisedControls\MenuControls\CheckSlider.resx">
       <DependentUpon>CheckSlider.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\F_MainMenu.resx">
-      <DependentUpon>F_MainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\MainMenu\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\F_MainWindow.resx">
-      <DependentUpon>F_MainWindow.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Parameters\F_MainParameterWindow.resx">
+      <DependentUpon>F_MainParameterWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\F_Menu2.resx">
+    <EmbeddedResource Include="Forms\Parameters\F_Menu1.resx">
+      <DependentUpon>F_Menu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parameters\F_Menu2.resx">
       <DependentUpon>F_Menu2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\F_Menu3.resx">
+    <EmbeddedResource Include="Forms\Parameters\F_Menu3.resx">
       <DependentUpon>F_Menu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuControl\MenuController.resx">
+      <DependentUpon>MenuController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parameters\F_ParameterWindow.resx">
+      <DependentUpon>F_ParameterWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,6 +159,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

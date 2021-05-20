@@ -8,15 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SaPousseOS_v0_2.Forms
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
-    public partial class F_Menu3 : Form
+    public partial class F_ParameterWindow : Form
     {
-        public F_Menu3()
+        public F_ParameterWindow()
         {
             InitializeComponent();
-            this.Show();
-           
         }
+
+
     }
 }

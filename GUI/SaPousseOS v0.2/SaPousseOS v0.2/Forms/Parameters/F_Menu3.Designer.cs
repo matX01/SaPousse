@@ -1,5 +1,5 @@
 ﻿
-namespace SaPousseOS_v0_2.Forms
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
     partial class F_Menu3
     {
@@ -41,6 +41,7 @@ namespace SaPousseOS_v0_2.Forms
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Menu3";
             this.Text = "Menu3";
+            this.Load += new System.EventHandler(this.F_Menu3_Load);
             this.ResumeLayout(false);
 
         }

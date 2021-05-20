@@ -1,7 +1,7 @@
 ﻿
-namespace SaPousseOS_v0_2.Forms
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
-    partial class F_Menu2
+    partial class F_Menu1
     {
         /// <summary>
         /// Required designer variable.
@@ -42,8 +42,9 @@ namespace SaPousseOS_v0_2.Forms
             this.LABEL.Size = new System.Drawing.Size(35, 13);
             this.LABEL.TabIndex = 0;
             this.LABEL.Text = "label1";
+            this.LABEL.Click += new System.EventHandler(this.LABEL_Click);
             // 
-            // F_Menu2
+            // F_Menu1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -52,7 +53,7 @@ namespace SaPousseOS_v0_2.Forms
             this.Controls.Add(this.LABEL);
             this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SaPousseOS_v0_2.Properties.Settings.Default, "BackgroundColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "F_Menu2";
+            this.Name = "F_Menu1";
             this.Text = "Menu2";
             this.Load += new System.EventHandler(this.F_Menu2_Load);
             this.ResumeLayout(false);

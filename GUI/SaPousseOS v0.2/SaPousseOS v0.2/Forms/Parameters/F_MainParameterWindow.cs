@@ -1,12 +1,13 @@
 ﻿using System.Windows.Forms;
 using SaPousseOS_v0_2.SideMenuMethods;
-using SaPousseOS_v0_2.Forms;
+
 using System.Collections.Generic;
 using SaPousseOS_v0_2.CustomisedControls.MenuControls;
+using SaPousseOS_v0_2.Forms.Parameters;
 
-namespace SaPousseOS_v0_2
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
-    public partial class MainWindow : Form
+    public partial class F_MainParameterWindow : Form
     {
         public SmartButton MainMenuSelector;
         public static SmartButton Menu2Selector;
@@ -16,17 +17,16 @@ namespace SaPousseOS_v0_2
 
 
         
-        public MainWindow()
+        public F_MainParameterWindow()
         {
             InitializeComponent();
             
-                   
-            MainMenuSelector = new SmartButton(B_MainMenu,new F_MainMenu() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true });
+            MainMenuSelector = new SmartButton(B_MainMenu,new F_Menu1() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true });
             Menu2Selector = new SmartButton(B_Menu2, new F_Menu2() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true });
             Menu3Selector = new SmartButton(B_Menu3, new F_Menu3() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true });
            
             MainSideBar = new SideMenu(new List<SmartButton> { MainMenuSelector , Menu2Selector ,Menu3Selector}, P_SideMenuSelected, P_MainContainer.Panel2);
-
+            
 
 
         }
@@ -40,5 +40,18 @@ namespace SaPousseOS_v0_2
         {
 
         }
+
+        private void B_MainMenu_Click(object sender, System.EventArgs e)
+        {
+
+        }
+        private void B_GoBack_Click(object sender, System.EventArgs e)
+        {
+
+            Program.Control.SetNewMenu(new MainMenu.MainMenu() { TopLevel = false, Visible = true, Dock = DockStyle.Fill });
+
+        }
+
+ 
     }
 }

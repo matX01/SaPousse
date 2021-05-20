@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SaPousseOS_v0_2.Forms.MenuControl;
 
 namespace SaPousseOS_v0_2
 {
@@ -11,12 +12,16 @@ namespace SaPousseOS_v0_2
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+
+        public static MenuController Control;
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainWindow());
+            Control = new MenuController();
+            Application.Run(Control);
         }
     }
 }

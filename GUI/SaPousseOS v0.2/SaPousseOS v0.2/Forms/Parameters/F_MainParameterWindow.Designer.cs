@@ -1,7 +1,7 @@
 ﻿
-namespace SaPousseOS_v0_2
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
-    partial class MainWindow
+    partial class F_MainParameterWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,13 @@ namespace SaPousseOS_v0_2
         /// </summary>
         private void InitializeComponent()
         {
+
             this.P_MainContainer = new System.Windows.Forms.SplitContainer();
             this.P_SideMenuSelected = new System.Windows.Forms.Panel();
             this.B_Menu3 = new System.Windows.Forms.Button();
             this.B_Menu2 = new System.Windows.Forms.Button();
             this.B_MainMenu = new System.Windows.Forms.Button();
+            this.B_GoBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.P_MainContainer)).BeginInit();
             this.P_MainContainer.Panel1.SuspendLayout();
             this.P_MainContainer.SuspendLayout();
@@ -41,8 +43,8 @@ namespace SaPousseOS_v0_2
             // 
             // P_MainContainer
             // 
-            this.P_MainContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.P_MainContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.P_MainContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.P_MainContainer.Location = new System.Drawing.Point(0, 0);
@@ -56,6 +58,7 @@ namespace SaPousseOS_v0_2
             this.P_MainContainer.Panel1.Controls.Add(this.B_Menu3);
             this.P_MainContainer.Panel1.Controls.Add(this.B_Menu2);
             this.P_MainContainer.Panel1.Controls.Add(this.B_MainMenu);
+            this.P_MainContainer.Panel1.Controls.Add(this.B_GoBack);
             this.P_MainContainer.Panel1.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SaPousseOS_v0_2.Properties.Settings.Default, "SubMenu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.P_MainContainer.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.P_MainContainer_Panel1_Paint);
             // 
@@ -71,7 +74,7 @@ namespace SaPousseOS_v0_2
             // 
             this.P_SideMenuSelected.BackColor = global::SaPousseOS_v0_2.Properties.Settings.Default.FontColor;
             this.P_SideMenuSelected.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SaPousseOS_v0_2.Properties.Settings.Default, "FontColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.P_SideMenuSelected.Location = new System.Drawing.Point(0, 0);
+            this.P_SideMenuSelected.Location = new System.Drawing.Point(0, 65);
             this.P_SideMenuSelected.Name = "P_SideMenuSelected";
             this.P_SideMenuSelected.Size = new System.Drawing.Size(5, 62);
             this.P_SideMenuSelected.TabIndex = 2;
@@ -83,7 +86,7 @@ namespace SaPousseOS_v0_2
             this.B_Menu3.FlatAppearance.BorderSize = 0;
             this.B_Menu3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_Menu3.ForeColor = global::SaPousseOS_v0_2.Properties.Settings.Default.FontColor;
-            this.B_Menu3.Location = new System.Drawing.Point(0, 124);
+            this.B_Menu3.Location = new System.Drawing.Point(0, 189);
             this.B_Menu3.Margin = new System.Windows.Forms.Padding(0);
             this.B_Menu3.Name = "B_Menu3";
             this.B_Menu3.Size = new System.Drawing.Size(182, 62);
@@ -98,7 +101,7 @@ namespace SaPousseOS_v0_2
             this.B_Menu2.FlatAppearance.BorderSize = 0;
             this.B_Menu2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_Menu2.ForeColor = global::SaPousseOS_v0_2.Properties.Settings.Default.FontColor;
-            this.B_Menu2.Location = new System.Drawing.Point(0, 62);
+            this.B_Menu2.Location = new System.Drawing.Point(0, 127);
             this.B_Menu2.Margin = new System.Windows.Forms.Padding(0);
             this.B_Menu2.Name = "B_Menu2";
             this.B_Menu2.Size = new System.Drawing.Size(182, 62);
@@ -113,15 +116,32 @@ namespace SaPousseOS_v0_2
             this.B_MainMenu.FlatAppearance.BorderSize = 0;
             this.B_MainMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_MainMenu.ForeColor = global::SaPousseOS_v0_2.Properties.Settings.Default.FontColor;
-            this.B_MainMenu.Location = new System.Drawing.Point(0, 0);
+            this.B_MainMenu.Location = new System.Drawing.Point(0, 65);
             this.B_MainMenu.Margin = new System.Windows.Forms.Padding(0);
             this.B_MainMenu.Name = "B_MainMenu";
             this.B_MainMenu.Size = new System.Drawing.Size(182, 62);
             this.B_MainMenu.TabIndex = 1;
             this.B_MainMenu.Text = "Main Menu";
             this.B_MainMenu.UseVisualStyleBackColor = true;
+            this.B_MainMenu.Click += new System.EventHandler(this.B_MainMenu_Click);
             // 
-            // MainWindow
+            // B_GoBack
+            // 
+            this.B_GoBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.B_GoBack.DataBindings.Add(new System.Windows.Forms.Binding("ForeColor", global::SaPousseOS_v0_2.Properties.Settings.Default, "FontColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.B_GoBack.FlatAppearance.BorderSize = 0;
+            this.B_GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B_GoBack.ForeColor = global::SaPousseOS_v0_2.Properties.Settings.Default.FontColor;
+            this.B_GoBack.Location = new System.Drawing.Point(0, 0);
+            this.B_GoBack.Margin = new System.Windows.Forms.Padding(0);
+            this.B_GoBack.Name = "B_GoBack";
+            this.B_GoBack.Size = new System.Drawing.Size(182, 62);
+            this.B_GoBack.TabIndex = 3;
+            this.B_GoBack.Text = "Go back";
+            this.B_GoBack.UseVisualStyleBackColor = true;
+            this.B_GoBack.Click += new System.EventHandler(this.B_GoBack_Click);
+            // 
+            // F_MainParameterWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,8 +149,9 @@ namespace SaPousseOS_v0_2
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.P_MainContainer);
             this.DataBindings.Add(new System.Windows.Forms.Binding("BackColor", global::SaPousseOS_v0_2.Properties.Settings.Default, "BackgroundColor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Name = "MainWindow";
-            this.Text = "SaPousseOS";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "F_MainParameterWindow";
+            this.Text = "MainParameterWindow";
             this.P_MainContainer.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.P_MainContainer)).EndInit();
             this.P_MainContainer.ResumeLayout(false);
@@ -145,6 +166,7 @@ namespace SaPousseOS_v0_2
         private System.Windows.Forms.Panel P_SideMenuSelected;
         private System.Windows.Forms.Button B_Menu2;
         private System.Windows.Forms.Button B_Menu3;
+        private System.Windows.Forms.Button B_GoBack;
     }
 }
 

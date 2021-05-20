@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SaPousseOS_v0_2.Forms
+namespace SaPousseOS_v0_2.Forms.Parameters
 {
    
-    public partial class F_Menu2 : Form
+    public partial class F_Menu1 : Form
     {
     
 
-        public F_Menu2()
+        public F_Menu1()
         {
             InitializeComponent();
             this.Show();
@@ -26,6 +26,10 @@ namespace SaPousseOS_v0_2.Forms
         {
 
         }
-        
+
+        private void LABEL_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
