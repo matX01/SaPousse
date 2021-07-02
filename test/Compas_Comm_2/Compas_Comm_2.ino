@@ -241,7 +241,7 @@ delay(1);
 
 
 #include <SPI.h>
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValues.h"
 #include "SPIElement.h"
 #include "Debugger.h"
 

@@ -3,7 +3,7 @@
 
 #include "SPIElement.h"
 #include <Arduino.h>
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValues.h"
 
 
 #define IMUSPISpeed 1000000
@@ -40,7 +40,7 @@ class IMU9250 {
     
     
     static void readSensor();
-    static DataStructure *GetPointerOfVariable();
+    static DataStructure *GetValues();
     
 
 

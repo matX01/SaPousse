@@ -14,6 +14,7 @@ void GlobalExceptionHandler::begin(){
 
 }
 
+
 void GlobalExceptionHandler::Error(uint8_t ExceptionID,ErrorType Err){
     
     switch(Err.ErrorTypeID){
@@ -67,13 +68,23 @@ void GlobalExceptionHandler::Error(uint8_t ExceptionID,ErrorType Err){
             } 
             else if(ExceptionCount >= numberOfCumulatedExceptionInDefinedTimeOut){
 
-                Error(0x05,FATALERROR);
+                Error(0x06,FATALERROR);
              }
 
             LastExceptionCountTime = millis();
             ExceptionCount++;
 
             break;
+        case 5:
+
+            
+
+
+
+        break; 
+    
+    
+    
     }
 
     DebugTool.DisplayError(ExceptionID);

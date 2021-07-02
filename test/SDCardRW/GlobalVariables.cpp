@@ -1,4 +1,4 @@
-  #include "GlobalVariables.h"
+  #include "GlobalPreProcessorValues.h"
 
 int GlobalExceptionHandler::ExceptionCount = 0;
 unsigned long GlobalExceptionHandler::LastExceptionCountTime =0;

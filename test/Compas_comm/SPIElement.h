@@ -3,7 +3,7 @@
 
 #include <SPI.h>
 #include <Arduino.h>
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValues.h"
 
 
 #define MISOPIN_SPI0 12

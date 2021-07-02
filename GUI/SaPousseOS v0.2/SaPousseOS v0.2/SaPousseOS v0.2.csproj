@@ -100,7 +100,7 @@
     <Compile Include="Forms\Parameters\F_ParameterWindow.Designer.cs">
       <DependentUpon>F_ParameterWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="GlobalVariables.cs" />
+    <Compile Include="GlobalPreProcessorValues.cs" />
     <Compile Include="Forms\Parameters\F_MainParameterWindow.cs">
       <SubType>Form</SubType>
     </Compile>

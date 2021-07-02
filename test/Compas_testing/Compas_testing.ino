@@ -1,6 +1,6 @@
 
 #include "Debugger.h"
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValues.h"
 #include "IMU9250.h"
 
 short maxV[] = {-32765,-32765,-32765};
@@ -30,7 +30,7 @@ void loop() {
 
   MPU9250.readSensor();
 
-  DataStructure dtr = *MPU9250.GetPointerOfVariable();
+  DataStructure dtr = *MPU9250.GetValues();
 
   dtr.OutputShort[0] = (dtr.OutputShort[0]+value[0])*coef[0];
   dtr.OutputShort[1] = (dtr.OutputShort[1]+value[1])*coef[1];
@@ -108,7 +108,7 @@ void calibration(){
     delay(1000);
   while(millis() < stopTime){
   MPU9250.readSensor();
-  DataStructure dtr = *MPU9250.GetPointerOfVariable();
+  DataStructure dtr = *MPU9250.GetValues();
   for(int i = 0;i < 3;i ++){
       if(dtr.OutputShort[i] > maxV[i]){
         maxV[i] = dtr.OutputShort[i];

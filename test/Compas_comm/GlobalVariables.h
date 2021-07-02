@@ -122,7 +122,7 @@ const ErrorType SPIERROR {
 
 
 #include <SPI.h>
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValuessorValues.h"
 #include "SPIElement.h"
 #include "Debugger.h"
 /*

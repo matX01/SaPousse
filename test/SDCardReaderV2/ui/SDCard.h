@@ -1,7 +1,7 @@
 #ifndef SDCardHandler
 #define SDCardHandler
 
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValuessorValues.h"
 
 #include <Arduino.h>
 #include <SD.h>

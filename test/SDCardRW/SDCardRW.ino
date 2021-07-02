@@ -1,5 +1,5 @@
 #include "SDCard.h"
-#include "GlobalVariables.h"
+#include "GlobalPreProcessorValues.h"
 #include "Debugger.h"
 
 

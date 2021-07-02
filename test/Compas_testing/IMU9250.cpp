@@ -211,7 +211,7 @@ delay(1);
 
 
 
-DataStructure *IMU9250::GetPointerOfVariable(){
+DataStructure *IMU9250::GetValues(){
     
     return &OutputValue;
     /*FIFOReadingPosition ++;
